@@ -1,8 +1,11 @@
-//  Move all 0s to the end of the array while keeping other elements in order.
+// Return the longest word in a string
 
-function moveZeros(arr) {
-  let zeros = arr.filter((x) => x === 0);
-  let nonZeros = arr.filter((x) => x !== 0);
-  return [...nonZeros, ...zeros];
+function longestWord(sentence) {
+  return sentence
+    .split(" ")
+    .reduce(
+      (longest, word) => (word.length > longest.length ? word : longest),
+      ""
+    );
 }
-console.log(moveZeros([0, 1, 0, 3, 12])); // [1, 3, 12, 0, 0]
+console.log(longestWord("I am learning JavaScript basics")); // "JavaScript"
