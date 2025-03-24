@@ -24,4 +24,4 @@
 22. What are arrow functions and how do they differ from regular functions
 23. Explain the concept of memoization
 24. What is bom
-25. Write a program to remove duplicate items array 
+25. Write a program to remove duplicate items array
