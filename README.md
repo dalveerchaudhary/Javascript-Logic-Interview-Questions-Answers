@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://jscodechallenges.vercel.app/"><img src="web/public/hero.svg" alt="hero" width="100px"/></a>
+<!-- 	<a href="https://jscodechallenges.vercel.app/"><img src="web/public/hero.svg" alt="hero" width="100px"/></a> -->
 	<h1>JavaScript Interview Questions</h1>
 	<h3>This repository contains a few hundred curated JavaScript interview questions with high quality answers for acing your Front End Engineer interviews</h3>
 --------------------
